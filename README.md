@@ -39,7 +39,9 @@ the first step is to use this data model to identify which datasets will be requ
 2. Calculate Total Scores: Next, we aggregate the scores for each category using the SUMIF formula to calculate the total score for each category. Eg: =SUMIF(Category_Range, Category_ID, Score_Range) 
 3. Identify the Top 5 Categories: Finally, we identify the top 5 categories based on the total scores.
 The result of this process is a cleaned dataset containing the merged data and the top 5 categories with the highest scores.CHICK TO OPEN ![CLEANED DATASETE](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/ff962b0b93e8417394da2593589dfb1203ee8182/dataset/Reactions1(TOP%205%20CATEGORY%20)%20(1).csv)
-### 4. Data Analysis: Performing in-depth analysis to uncover insights.  
+### 4. Data Analysis: Performing in-depth analysis to uncover insights.
+   #### Top five categories by total scores
+   
 ### 5. Insights Extraction: Delivering actionable insights and recommendations.  
 
 ## Insights and Findings  
