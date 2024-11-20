@@ -31,21 +31,24 @@ the first step is to use this data model to identify which datasets will be requ
 - removing rows that have values which are missing,
 - changing the data type of some values within a column, and
 - removing columns which are not relevant to this task
-- CLICK THIS LINK FOR :![DATA MODEL.PDF](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/4b92f1a3ebe215d6878f8c72c93ab0d912a940d6/Data%20model/Data%20model.pdf)
+- Click the link to access the [DATA MODEL.PDF](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/4b92f1a3ebe215d6878f8c72c93ab0d912a940d6/Data%20model/Data%20model.pdf)
 ### 3. Data Modeling: Building models to identify patterns and trends.
 1. Merge the Data: We start by merging the three provided data sets using the Reaction table as the base and joining the relevant columns from the Content and Reaction Types tables.
--  To perform the merge:
+##### To perform the merge:
    You can use a VLOOKUP formula in Excel or an equivalent operation in your chosen data processing tool to combine the tables based on a common key (such as Reaction ID or Content ID). Eg: =VLOOKUP(Reaction_ID, Content, 2, FALSE)
 2. Calculate Total Scores: Next, we aggregate the scores for each category using the SUMIF formula to calculate the total score for each category. Eg: =SUMIF(Category_Range, Category_ID, Score_Range) 
 3. Identify the Top 5 Categories: Finally, we identify the top 5 categories based on the total scores.
-The result of this process is a cleaned dataset containing the merged data and the top 5 categories with the highest scores.CHICK TO OPEN ![CLEANED DATASETE](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/ff962b0b93e8417394da2593589dfb1203ee8182/dataset/Reactions1(TOP%205%20CATEGORY%20)%20(1).csv)
+The result of this process is a cleaned dataset containing the merged data and the top 5 categories with the highest scores.Click the link to access the FINAL DATASET [CLEANED DATASET](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/ff962b0b93e8417394da2593589dfb1203ee8182/dataset/Reactions1(TOP%205%20CATEGORY%20)%20(1).csv)
 ### 4. Data Analysis: Performing in-depth analysis to uncover insights.
    #### Top five categories with percentage by pie chart                                                              
    ![pie chart](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/08a6f1f4af7a5302ce4dd248e35e5f1f1233c459/presentation/CaptureSS.PNG)
    #### Top five categories with total score by bar chart
    ![bar chart](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/1463c6ccb87630a91d20f9da9a4aba7be6014197/presentation/11.PNG)
 ### 5. Insights Extraction: Delivering actionable insights and recommendations.  
+ For a deeper understanding of the entire project, including insights and findings, a full project PowerPoint presentation is available. This presentation provides a detailed overview of the project, methodology, and key takeaways from the data modeling process.
 
+Click the link to access the PowerPoint Presentation for the Insight Extraction section
+[PRESENTATION.pptx](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/570428ae810875244e2746b2f9a18402eab92876/presentation/Data%20Analytics%20template%20-%20Task%203_final%20(2)%20(1).pptx)
 ## Insights and Findings  
 1. Unique Categories: We identified 16 distinct categories of content.  
 2. Peak Activity Month: January recorded the highest volume of posts.  
