@@ -31,7 +31,13 @@ the first step is to use this data model to identify which datasets will be requ
 - removing rows that have values which are missing,
 - changing the data type of some values within a column, and
 - removing columns which are not relevant to this task
-### 3. Data Modeling: Building models to identify patterns and trends.  
+### 3. Data Modeling: Building models to identify patterns and trends.
+1. Merge the Data: We start by merging the three provided data sets using the Reaction table as the base and joining the relevant columns from the Content and Reaction Types tables.
+-  To perform the merge:
+   You can use a VLOOKUP formula in Excel or an equivalent operation in your chosen data processing tool to combine the tables based on a common key (such as Reaction ID or Content ID). Eg: =VLOOKUP(Reaction_ID, Content, 2, FALSE)
+3. Calculate Total Scores: Next, we aggregate the scores for each category using the SUMIF formula to calculate the total score for each category. Eg: =SUMIF(Category_Range, Category_ID, Score_Range) 
+4. Identify the Top 5 Categories: Finally, we identify the top 5 categories based on the total scores.
+The result of this process is a cleaned dataset containing the merged data and the top 5 categories with the highest scores.
 ### 4. Data Analysis: Performing in-depth analysis to uncover insights.  
 ### 5. Insights Extraction: Delivering actionable insights and recommendations.  
 
