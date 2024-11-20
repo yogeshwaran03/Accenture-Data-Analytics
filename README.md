@@ -31,6 +31,7 @@ the first step is to use this data model to identify which datasets will be requ
 - removing rows that have values which are missing,
 - changing the data type of some values within a column, and
 - removing columns which are not relevant to this task
+  ![pdf alt](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/4b92f1a3ebe215d6878f8c72c93ab0d912a940d6/Data%20model/Data%20model.pdf)
 ### 3. Data Modeling: Building models to identify patterns and trends.
 1. Merge the Data: We start by merging the three provided data sets using the Reaction table as the base and joining the relevant columns from the Content and Reaction Types tables.
 -  To perform the merge:
