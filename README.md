@@ -27,10 +27,13 @@ the first step is to use this data model to identify which datasets will be requ
 - Array - List with a number of elements in a specific order—typically of the same type,
 - Integer - Numeric data type for numbers without fractions,
 - Timestamp - Number of seconds that have elapsed since midnight (00:00:00 UTC), 1st January 1970 (Unix time),
-### 2. Data Cleaning: Ensuring data accuracy and consistency for meaningful analysis.  
-4. Data Modeling: Building models to identify patterns and trends.  
-5. Data Analysis: Performing in-depth analysis to uncover insights.  
-6. Insights Extraction: Delivering actionable insights and recommendations.  
+### 2. Data Cleaning: Ensuring data accuracy and consistency for meaningful analysis.
+- removing rows that have values which are missing,
+- changing the data type of some values within a column, and
+- removing columns which are not relevant to this task
+### 3. Data Modeling: Building models to identify patterns and trends.  
+### 4. Data Analysis: Performing in-depth analysis to uncover insights.  
+### 5. Insights Extraction: Delivering actionable insights and recommendations.  
 
 ## Insights and Findings  
 1. Unique Categories: We identified 16 distinct categories of content.  
