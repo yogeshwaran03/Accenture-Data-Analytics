@@ -34,7 +34,7 @@ the first step is to use this data model to identify which datasets will be requ
 - Click the link to access the [DATA MODEL.PDF](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/4b92f1a3ebe215d6878f8c72c93ab0d912a940d6/Data%20model/Data%20model.pdf)
 ### 3. Data Modeling: Building models to identify patterns and trends.
 1. Merge the Data: We start by merging the three provided data sets using the Reaction table as the base and joining the relevant columns from the Content and Reaction Types tables.
-##### To perform the merge:
+- ##### To perform the merge:
    You can use a VLOOKUP formula in Excel or an equivalent operation in your chosen data processing tool to combine the tables based on a common key (such as Reaction ID or Content ID). Eg: =VLOOKUP(Reaction_ID, Content, 2, FALSE)
 2. Calculate Total Scores: Next, we aggregate the scores for each category using the SUMIF formula to calculate the total score for each category. Eg: =SUMIF(Category_Range, Category_ID, Score_Range) 
 3. Identify the Top 5 Categories: Finally, we identify the top 5 categories based on the total scores.
