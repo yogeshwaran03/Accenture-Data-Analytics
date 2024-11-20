@@ -40,9 +40,10 @@ the first step is to use this data model to identify which datasets will be requ
 3. Identify the Top 5 Categories: Finally, we identify the top 5 categories based on the total scores.
 The result of this process is a cleaned dataset containing the merged data and the top 5 categories with the highest scores.CHICK TO OPEN ![CLEANED DATASETE](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/ff962b0b93e8417394da2593589dfb1203ee8182/dataset/Reactions1(TOP%205%20CATEGORY%20)%20(1).csv)
 ### 4. Data Analysis: Performing in-depth analysis to uncover insights.
-   #### Top five categories by total scores
-   ![bar chart](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/08a6f1f4af7a5302ce4dd248e35e5f1f1233c459/presentation/CaptureSS.PNG)
-   
+   #### Top five categories with percentage by pie chart                                                              
+   ![pie chart](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/08a6f1f4af7a5302ce4dd248e35e5f1f1233c459/presentation/CaptureSS.PNG)
+   #### Top five categories with total score by bar chart
+   ![bar chart](https://github.com/yogeshwaran03/Accenture-Data-Analytics/blob/1463c6ccb87630a91d20f9da9a4aba7be6014197/presentation/11.PNG)
 ### 5. Insights Extraction: Delivering actionable insights and recommendations.  
 
 ## Insights and Findings  
